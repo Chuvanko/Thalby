@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+}
+header{
+    padding: 15px 0;
+}
+.container{
+    margin: auto;
+    max-width: 1064px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style: none;
+    display: inline-flex;
+    padding-top: 12px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    margin-right: 28px;
+    font-weight: 700;
+}
+header nav ul li:last-of-type{
+    margin-right: 0;
+}
+.best_sellers{
+    text-align: center;
+}
+header a img{
+    display: inline-flex;
+}
+.logo_1{
+    margin-bottom: 9px;
+}
+.logo_2{
+    margin-right: 20px;
+    margin-left: 26px;
+}
+.logo{
+    padding-top: 12px;
+}
+.main_banner{
+    background: #F0EFEB;
+}
+.main_banner .container{
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main_banner .container h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 42px;
+}
+.main_banner .container p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.main_banner .container a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 8px 23px;
+}
+.main_banner .container article{
+    max-width: 534px;
+    margin-right: 53px;
+}
+.best_sellers .container{
+    padding-top: 19px;
+    max-width: 692px;
+}
+.best_sellers .container h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 27px;
+    padding-top: 41px;
+}
+.best_sellers .container p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 47px;
+}
+.best_sellers_container{
+    max-width: 1075px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 248px;
+    padding-top: 20px;
+}
+.guide{
+    max-width: 315px;
+}
+.guide_text{
+    margin-top: 27px;
+}
+.guide .guide_text h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.guide .guide_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.guide .guide_text a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+
+
