@@ -166,6 +166,27 @@ header a img{
     text-decoration-line: underline;
     color: #000000;
 }
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.owl-dots .owl-dot span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #F0EFEB;
+    border-radius: 50%;
+    margin: 10px;
+}
+.owl-dots .owl-dot.active span {
+    background: #5A9FE9;
+}
+
+
+
+
 
 
 
