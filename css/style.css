@@ -9,6 +9,7 @@ header .logo{
 }
 header{
     padding: 15px 0;
+
 }
 .container{
     margin: auto;
@@ -17,13 +18,14 @@ header{
 header .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-header nav ul{
+header .nav ul{
     list-style: none;
     display: inline-flex;
     padding-top: 12px;
 }
-header nav ul li a{
+header .nav ul li a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -33,7 +35,7 @@ header nav ul li a{
     margin-right: 28px;
     font-weight: 700;
 }
-header nav ul li:last-of-type{
+header .nav ul li:last-of-type{
     margin-right: 0;
 }
 .best_sellers{
@@ -183,7 +185,6 @@ header a img{
 .owl-dots .owl-dot.active span {
     background: #5A9FE9;
 }
-
 
 
 
