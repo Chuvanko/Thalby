@@ -1,0 +1,291 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "style.css";
+@import "menu_mobile.css";
+@import "media.css";
+
+$black_color: #000000;
+$white_color: #FFFFFF;
+$background: #F0EFEB;
+$main_font: 'Roboto';
+$font_400: 400;
+$font_700: 700;
+
+
+header{
+  padding: 15px 0;
+  .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav{
+    ul{
+      list-style: none;
+      display: inline-flex;
+      padding-top: 12px;
+      li{
+        &:last-of-type{
+          margin-right: 0;
+        }
+        a{
+          text-decoration: none;
+          font-family: $main_font;
+          font-style: normal;
+          font-size: 16px;
+          line-height: 26px;
+          color: #1C1B1B;
+          margin-right: 28px;
+          font-weight: 700;
+          img{
+            display: inline-flex;
+          }
+        }
+      }
+    }
+  }
+  .logo_1{
+    margin-bottom: 9px;
+  }
+  .logo_2{
+    margin-right: 20px;
+    margin-left: 26px;
+  }
+  .logo{
+    padding-top: 12px;
+  }
+}
+.container{
+  margin: auto;
+  max-width: 1064px;
+}
+.main_banner{
+  background: $background;
+  .container{
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+    h1{
+      font-family: $main_font;
+      font-style: normal;
+      font-size: 60px;
+      line-height: 70px;
+      color: $black_color;
+      font-weight: $font_700;
+      margin-top: 90px;
+      margin-bottom: 42px;
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_400;
+      font-size: 24px;
+      line-height: 28px;
+      color: $black_color;
+      margin-bottom: 26px;
+    }
+    a{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_400;
+      font-size: 17px;
+      line-height: 20px;
+      color: #FFFFFF;
+      text-decoration: none;
+      background: $black_color;
+      border: 1px solid $black_color;
+      border-radius: 100px;
+      padding: 8px 23px;
+    }
+    article{
+      max-width: 534px;
+      margin-right: 53px;
+    }
+  }
+}
+.best_sellers{
+  text-align: center;
+  .container{
+    padding-top: 19px;
+    max-width: 692px;
+  }
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $black_color;
+    padding-bottom: 27px;
+    padding-top: 41px;
+  }
+  p{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: $black_color;
+    padding-bottom: 47px;
+  }
+}
+.best_sellers_container{
+  max-width: 1075px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 248px;
+  padding-top: 20px;
+  .guide{
+    max-width: 315px;
+  }
+  .guide_text{
+    margin-top: 27px;
+    h4{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: $black_color;
+      margin-bottom: 17px;
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_400;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: $black_color;
+      margin-bottom: 10px;
+    }
+    a{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: $black_color;
+    }
+  }
+}
+.owl-dots{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .owl-dot span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: $background;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  .owl-dot.active span {
+    background: #5A9FE9;
+  }
+}
+.people_society{
+  padding-top: 76px;
+  padding-bottom: 51px;
+  background: rgba(204, 204, 204, 0.3);
+  .container{
+    max-width: 1064px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  article{
+    h2{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 36px;
+      line-height: 42px;
+      color: $black_color;
+      margin-bottom: 31px;
+    }
+    p{
+      max-width: 498px;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_400;
+      font-size: 36px;
+      line-height: 42px;
+      color: $black_color;
+      margin-bottom: 40px;
+    }
+    a{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: $black_color;
+    }
+  }
+  .people_society_img{
+    margin-right: 50px;
+  }
+}
+.people_container{
+  padding-top: 76px;
+  padding-bottom: 51px;
+  background: rgba(204, 204, 204, 0.6);
+  .container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1064px;
+    text-align: right;
+  }
+  article{
+    h2{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 36px;
+      line-height: 42px;
+      color: $black_color;
+      margin-bottom: 31px;
+      margin-right: 50px;
+    }
+    p{
+      max-width: 513px;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_400;
+      font-size: 36px;
+      line-height: 42px;
+      color: $black_color;
+      margin-bottom: 40px;
+      margin-right: 50px;
+    }
+    a{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: $black_color;
+      margin-right: 50px;
+    }
+  }
+}

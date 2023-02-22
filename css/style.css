@@ -185,7 +185,93 @@ header a img{
 .owl-dots .owl-dot.active span {
     background: #5A9FE9;
 }
-
+.people_society{
+    padding-top: 76px;
+    padding-bottom: 51px;
+    background: rgba(204, 204, 204, 0.3);
+}
+.people_society .container{
+    max-width: 1064px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.people_society article h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people_society article p{
+    max-width: 498px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.people_society article a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.people_society_img{
+    margin-right: 50px;
+}
+.people_container{
+    padding-top: 76px;
+    padding-bottom: 51px;
+    background: rgba(204, 204, 204, 0.6);
+}
+.people_container .container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1064px;
+    text-align: right;
+}
+.people_container article h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+    margin-right: 50px;
+}
+.people_container article p{
+    max-width: 513px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.people_container article a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-right: 50px;
+}
 
 
 
