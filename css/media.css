@@ -1,6 +1,47 @@
+@media only screen and (max-width: 1232px){
+    .main_banner .container h1{
+        margin-left: 40px;
+    }
+    .main_banner .container p{
+        margin-left: 40px;
+    }
+    .main_banner .container a{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    header .nav ul{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 1094px){
+    .guide{
+        margin-left: 20px;
+    }
+    .people_society_img{
+        margin-left: 30px;
+    }
+    .left_logo{
+        margin-left: 30px;
+    }
+    .right_sub-menu{
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 999px){
+    .guide{
+        margin-left: 90px;
+    }
+}
+@media only screen and (max-width: 849px){
+    .guide{
+        margin-left: 50px;
+    }
+}
 @media only screen and (max-width: 767px){
     .nav-but-wrap{
         display: inline-block;
+        margin-left: 10px;
     }
     .nav {
         position: fixed;

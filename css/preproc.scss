@@ -4,6 +4,18 @@
 @import "menu_mobile.css";
 @import "media.css";
 
+@mixin theme($color: #A0A0A0){
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: $font_400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  color: $color;
+  height: 39px;
+  border: 1px solid $black_color;
+}
+
 $black_color: #000000;
 $white_color: #FFFFFF;
 $background: #F0EFEB;
@@ -286,6 +298,206 @@ header{
       text-decoration-line: underline;
       color: $black_color;
       margin-right: 50px;
+    }
+  }
+}
+.guides_unique{
+  .container{
+    max-width: 800px;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 290px;
+  }
+  .circles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p{
+      max-width: 211px;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 30px;
+      line-height: 35px;
+      text-align: center;
+      color: $black_color;
+      margin-bottom: 130px;
+    }
+  }
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $black_color;
+    margin-bottom: 69px;
+  }
+  h3{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $black_color;
+    margin-top: 52px;
+    margin-bottom: 30px;
+  }
+}
+.voices_guides{
+  background: #F0F0F0;
+  max-height: 480px;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1064px;
+  }
+  .voices_people{
+    position: relative;
+    transform: translateY(-31%);
+    h3{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.6px;
+      color: $black_color;
+      max-width: 285px;
+      margin-top: 35px;
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_400;
+      font-size: 19px;
+      line-height: 22px;
+      text-align: center;
+      color: $black_color;
+      margin-top: 34px;
+      margin-bottom: 44px;
+    }
+    a{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_700;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: $black_color;
+    }
+  }
+}
+.keep_touch{
+  .container{
+    text-align: center;
+    padding-bottom: 88px;
+    padding-top: 79px;
+  }
+  .input_1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    input[id="fname"], select {
+      margin-right: 60px;
+      @include theme;
+    }
+    input[id="lname"], select {
+      @include theme;
+    }
+  }
+  input[id="email"], select{
+    width: 390px;
+    @include theme;
+  }
+  input[id="submit"], select{
+    @include theme;
+    border-radius: 100px;
+    margin-top: 16px;
+    padding: 8px 23px;
+  }
+  input {
+    padding-left: 8px;
+  }
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $black_color;
+    margin-bottom: 9px;
+  }
+  h3{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: $black_color;
+    margin-bottom: 26px;
+  }
+}
+footer{
+  background: #020202;
+  p{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: $white_color;
+    margin-top: 20px;
+    padding-bottom: 16px;
+  }
+  .container{
+    padding-top: 51px;
+    max-width: 1064px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    margin-right: 18px;
+    margin-left: 18px;
+  }
+  .right_sub-menu{
+    display: flex;
+    align-items: flex-start;
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_400;
+    font-size: 14px;
+    line-height: 23px;
+    color: $white_color;
+    ul{
+      li {
+        list-style: none;
+        margin-bottom: 12px;
+        &:first-of-type{
+          margin-bottom: 36px;
+        }
+        a{
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: $font_400;
+          font-size: 14px;
+          line-height: 21px;
+          color: $white_color;
+          text-decoration: none;
+        }
+      }
+      .main_menu{
+        margin-bottom: 36px;
+        margin-right: 168px;
+      }
     }
   }
 }
