@@ -2,7 +2,6 @@
 @import "owl.theme.default.css";
 @import "style.css";
 @import "menu_mobile.css";
-@import "media.css";
 
 @mixin theme($color: #A0A0A0){
   font-family: $main_font;
@@ -501,3 +500,4 @@ footer{
     }
   }
 }
+@import "media.css";

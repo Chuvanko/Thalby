@@ -9,9 +9,19 @@
         margin-left: 40px;
     }
 }
+@media only screen and (max-width: 1181px){
+    .main_banner .container h1{
+        font-size: 45px;
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
+    .main_banner .container p{
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 1100px){
     header .nav ul{
-        margin-left: 10px;
+        margin-left: 40px;
     }
 }
 @media only screen and (max-width: 1094px){
@@ -32,13 +42,135 @@
     .guide{
         margin-left: 90px;
     }
+    .people_society article h2{
+        font-size: 30px;
+    }
+    .people_society article p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .people_container article h2{
+        font-size: 30px;
+    }
+    .people_container article p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 964px){
+    .main_banner .container h1{
+        font-size: 35px;
+        margin-bottom: 30px;
+        line-height: 50px;
+    }
+    .main_banner .container p{
+        font-size: 18px;
+    }
+    .main_banner .container a{
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+    header .nav ul li a{
+        font-size: 13px;
+        margin-right: 18px;
+    }
+}
+@media only screen and (max-width: 854px){
+    .main_banner .container h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main_banner .container p{
+        font-size: 15px;
+    }
+    .people_society article h2{
+        font-size: 25px;
+    }
+    .people_society article p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .people_container article h2{
+        font-size: 25px;
+    }
+    .people_container article p{
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 @media only screen and (max-width: 849px){
     .guide{
         margin-left: 50px;
     }
+    .girl{
+        display: none;
+    }
+}
+@media only screen and (max-width: 841px){
+    .main_banner .container h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .main_banner .container p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .main_banner .container a{
+        font-size: 12px;
+        padding: 6px 13px;
+    }
+    .guides_unique h2{
+        font-size: 25px;
+    }
+    .guides_unique h3{
+        font-size: 25px;
+    }
 }
 @media only screen and (max-width: 767px){
+    .main_banner .container{
+        display: block;
+        padding-top: 40px;
+    }
+    .container_img{
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .main_banner .container h1{
+        max-width: 400px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: auto;
+    }
+    .main_banner .container p{
+        font-size: 20px;
+        line-height: 20px;
+        max-width: 450px;
+    }
+    .main_banner .container a{
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+    .people_society .container{
+        display: block;
+    }
+    .people_society article h2{
+        margin-left: 30px;
+    }
+    .people_society article p{
+        margin-left: 30px;
+    }
+    .people_society article a{
+        margin-left: 30px;
+    }
+    .people_container .container{
+        display: block;
+    }
+    .people_container article p{
+        margin-left: auto;
+    }
+    .people_container .people_society_img{
+        margin-top: 20px;
+    }
     .nav-but-wrap{
         display: inline-block;
         margin-left: 10px;
@@ -154,5 +286,97 @@
     }
     header .nav ul li a{
         margin: 15px 0;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .best_sellers .container h2{
+        font-size: 30px;
+    }
+    .best_sellers .container p{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .guide{
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .container_img{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 642px) {
+    .container_img{
+        margin-left: 20px;
+    }
+    .best_sellers .container h2{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .container_img{
+        margin-left: 0;
+    }
+    .people_container article p{
+        max-width: 450px;
+    }
+    footer .right_sub-menu{
+        font-size: 12px;
+    }
+    footer .right_sub-menu ul li a{
+        font-size: 11px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 567px) {
+    .container_img{
+        margin-left: 0;
+    }
+    .people_container article p{
+        max-width: 450px;
+    }
+    .woman{
+        display: none;
+    }
+}
+@media only screen and (max-width: 510px) {
+    .container_img{
+        display: none;
+    }
+    .main_banner .container{
+        padding-bottom: 40px;
+    }
+    .logo_1{
+        display: none;
+    }
+    .logo_2{
+        display: none;
+    }
+    .logo_3{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .best_sellers .container h2{
+        font-size: 20px;
+    }
+    .best_sellers .container p{
+        font-size: 13px;
+    }
+    .keep_touch h2{
+        font-size: 25px;
+    }
+    .keep_touch h3{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .best_sellers .container h2{
+        font-size: 15px;
+    }
+    .best_sellers .container p{
+        font-size: 12px;
     }
 }
