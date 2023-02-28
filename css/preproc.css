@@ -246,7 +246,6 @@ header {
   padding-bottom: 290px; }
 .guides_unique .circles {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between; }
   .guides_unique .circles p {
     max-width: 211px;
@@ -325,8 +324,6 @@ header {
   padding-bottom: 88px;
   padding-top: 79px; }
 .keep_touch .input_1 {
-  display: flex;
-  justify-content: center;
   margin-bottom: 18px; }
   .keep_touch .input_1 input[id="fname"], .keep_touch .input_1 select {
     margin-right: 60px;

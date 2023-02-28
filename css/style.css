@@ -280,7 +280,6 @@ header a img{
 }
 .circles{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 .guides_unique h2{
@@ -368,8 +367,6 @@ header a img{
     padding-top: 79px;
 }
 .input_1{
-    display: flex;
-    justify-content: center;
     margin-bottom: 18px;
 }
 input[id="fname"], select {

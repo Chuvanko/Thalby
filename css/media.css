@@ -74,6 +74,15 @@
         font-size: 13px;
         margin-right: 18px;
     }
+    .container_img{
+        max-width: 600px;
+    }
+    .main_img{
+        width: 95%;
+    }
+    .main_banner .container{
+        padding-bottom: 20px;
+    }
 }
 @media only screen and (max-width: 854px){
     .main_banner .container h1{
@@ -102,74 +111,79 @@
     .guide{
         margin-left: 50px;
     }
-    .girl{
-        display: none;
-    }
 }
 @media only screen and (max-width: 841px){
-    .main_banner .container h1{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .main_banner .container p{
-        font-size: 13px;
-        line-height: 20px;
-    }
-    .main_banner .container a{
-        font-size: 12px;
-        padding: 6px 13px;
-    }
     .guides_unique h2{
         font-size: 25px;
     }
     .guides_unique h3{
         font-size: 25px;
     }
+    .guides_unique .container .circles p{
+        font-size: 20px;
+        max-width: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .voices_img{
+        max-width: 270px;
+    }
+    .people_img{
+        width: 90%;
+    }
+    .voices_guides .voices_people h3{
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 260px;
+    }
+    .voices_guides .voices_people p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .voices_guides .voices_people a{
+        font-size: 15px;
+    }
 }
-@media only screen and (max-width: 767px){
-    .main_banner .container{
-        display: block;
-        padding-top: 40px;
-    }
-    .container_img{
-        margin-left: 80px;
-        margin-top: 20px;
-    }
+@media only screen and (max-width: 785px){
     .main_banner .container h1{
-        max-width: 400px;
-        font-size: 30px;
-        line-height: 40px;
-        margin-top: auto;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
     }
     .main_banner .container p{
-        font-size: 20px;
+        font-size: 13px;
         line-height: 20px;
-        max-width: 450px;
     }
     .main_banner .container a{
-        font-size: 15px;
-        padding: 8px 10px;
+        font-size: 13px;
     }
-    .people_society .container{
-        display: block;
+}
+@media only screen and (max-width: 767px){
+    .people_society_img{
+        max-width: 300px;
     }
-    .people_society article h2{
-        margin-left: 30px;
+    .society_img{
+        width: 90%;
     }
-    .people_society article p{
-        margin-left: 30px;
-    }
-    .people_society article a{
-        margin-left: 30px;
-    }
-    .people_container .container{
-        display: block;
+    .people_container article h2{
+        font-size: 20px;
     }
     .people_container article p{
-        margin-left: auto;
+        font-size: 15px;
+        line-height: 30px;
     }
-    .people_container .people_society_img{
-        margin-top: 20px;
+    .people_container article a{
+        font-size: 13px;
+    }
+    .people_society article h2{
+        font-size: 20px;
+    }
+    .people_society article p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .people_society article a{
+        font-size: 13px;
     }
     .nav-but-wrap{
         display: inline-block;
@@ -300,10 +314,35 @@
         margin-right: 30px;
     }
 }
-@media only screen and (max-width: 700px) {
-    .container_img{
-        margin-left: 50px;
+@media only screen and (max-width: 701px) {
+    .main_banner .container{
+        display: block;
+        padding-top: 40px;
     }
+    .container_img{
+        max-width: 600px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .main_img{
+        width: 95%;
+    }
+    .main_banner .container h1{
+        max-width: 400px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: auto;
+    }
+    .main_banner .container p{
+        font-size: 20px;
+        line-height: 20px;
+        max-width: 450px;
+    }
+    .main_banner .container a{
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+
 }
 @media only screen and (max-width: 642px) {
     .container_img{
@@ -313,12 +352,23 @@
         font-size: 25px;
     }
 }
+@media only screen and (max-width: 600px) {
+    .voices_guides .voices_people h3{
+        font-size: 13px;
+        line-height: 15px;
+        max-width: 170px;
+    }
+    .voices_guides .voices_people p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .voices_guides .voices_people a{
+        font-size: 13px;
+    }
+}
 @media only screen and (max-width: 580px) {
     .container_img{
         margin-left: 0;
-    }
-    .people_container article p{
-        max-width: 450px;
     }
     footer .right_sub-menu{
         font-size: 12px;
@@ -329,6 +379,57 @@
     footer p{
         font-size: 12px;
     }
+    .people_society .container{
+        display: block;
+    }
+    .people_container .container{
+        display: block;
+    }
+    .people_container .container .people_society_img{
+        margin-left: 10px;
+    }
+    .people_society_img{
+        max-width: 200px;
+    }
+    .society_img{
+        width: 90%;
+    }
+    .people_container article h2{
+        font-size: 18px;
+        text-align: start;
+        margin-left: 30px;
+    }
+    .people_container article p{
+        font-size: 12px;
+        line-height: 25px;
+        text-align: start;
+        margin-left: 30px;
+    }
+    .people_container article a{
+        font-size: 13px;
+        align-items: flex-start;
+        display: block;
+        margin-right: 370px;
+        margin-bottom: 20px;
+    }
+    .people_society article h2{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .people_society article p{
+        font-size: 12px;
+        line-height: 25px;
+        margin-left: 30px;
+    }
+    .people_society article a{
+        font-size: 13px;
+        margin-left: 30px;
+    }
+    .guides_unique .container .circles p{
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 120px;
+    }
 }
 @media only screen and (max-width: 567px) {
     .container_img{
@@ -337,14 +438,34 @@
     .people_container article p{
         max-width: 450px;
     }
-    .woman{
-        display: none;
+}
+@media only screen and (max-width: 544px) {
+    .people_container article a{
+        margin-right: 350px;
+    }
+    .logo_img{
+        max-width: 100px;
+    }
+    .logo_white{
+        width: 70%;
+    }
+    .left_logo{
+        display: block;
+    }
+    .social{
+        width: 20%;
+    }
+    footer .logo {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 522px) {
+    .people_container article a{
+        margin-right: 330px;
     }
 }
 @media only screen and (max-width: 510px) {
-    .container_img{
-        display: none;
-    }
     .main_banner .container{
         padding-bottom: 40px;
     }
@@ -372,11 +493,177 @@
         font-size: 13px;
     }
 }
+@media only screen and (max-width: 496px) {
+    .people_container article a{
+        margin-right: 310px;
+    }
+}
+@media only screen and (max-width: 476px) {
+    .people_container article a{
+        margin-right: 290px;
+    }
+}
+@media only screen and (max-width: 466px) {
+    .guide .guide_text h4{
+        font-size: 13px;
+    }
+    .guide .guide_text p{
+        font-size: 13px;
+    }
+    .guide .guide_text a{
+        font-size: 13px;
+    }
+    .right_sub-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .right_sub-menu ul li:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 458px) {
+    .people_container article a{
+        margin-right: 270px;
+    }
+}
+@media only screen and (max-width: 455px) {
+    .voices_guides .voices_people h3{
+        font-size: 11px;
+        line-height: 13px;
+        max-width: 150px;
+    }
+    .voices_guides .voices_people p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .voices_guides .voices_people a{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 436px) {
+    .people_container article a{
+        margin-right: 250px;
+    }
+    .guides_unique .container .circles p{
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 100px;
+    }
+    .guides_unique .container h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .guides_unique .container h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .people_container article a{
+        margin-right: 230px;
+    }
+}
+@media only screen and (max-width: 401px) {
+    .keep_touch .input_1 input[id="fname"]{
+        margin-right: 0px;
+        margin-bottom: 18px;
+    }
+    .keep_touch input[id="email"]{
+        width: 330px;
+    }
+    .keep_touch h3{
+        font-size: 11px;
+    }
+}
 @media only screen and (max-width: 400px) {
     .best_sellers .container h2{
         font-size: 15px;
     }
     .best_sellers .container p{
         font-size: 12px;
+    }
+    .main_banner .container h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .main_banner .container p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .main_banner .container a{
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}
+@media only screen and (max-width: 394px) {
+    .guide .guide_text h4{
+        font-size: 10px;
+    }
+    .guide .guide_text p{
+        font-size: 10px;
+    }
+    .guide .guide_text a{
+        font-size: 10px;
+    }
+    .people_container article a{
+        margin-right: 210px;
+    }
+    .voices_guides .voices_people h3{
+        font-size: 9px;
+        line-height: 10px;
+        max-width: 130px;
+    }
+    .voices_guides .voices_people p{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .voices_guides .voices_people a{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .people_container article a{
+        margin-right: 190px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .guides_unique .container .circles p{
+        font-size: 10px;
+        line-height: 10px;
+        max-width: 70px;
+    }
+    .guides_unique .container h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 352px) {
+    .people_container article a{
+        margin-right: 170px;
+    }
+    .left_logo{
+        margin-top: 3px;
+    }
+}
+@media only screen and (max-width: 341px) {
+    .keep_touch input[id="email"]{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 334px) {
+    .people_container article a{
+        margin-right: 150px;
+    }
+    .voices_guides .voices_people h3{
+        font-size: 8px;
+        line-height: 10px;
+        max-width: 120px;
+    }
+    .voices_guides .voices_people p{
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .voices_guides .voices_people a{
+        font-size: 8px;
     }
 }

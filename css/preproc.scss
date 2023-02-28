@@ -309,7 +309,6 @@ header{
   }
   .circles{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     p{
       max-width: 211px;
@@ -399,8 +398,6 @@ header{
     padding-top: 79px;
   }
   .input_1{
-    display: flex;
-    justify-content: center;
     margin-bottom: 18px;
     input[id="fname"], select {
       margin-right: 60px;
