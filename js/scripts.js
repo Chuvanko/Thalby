@@ -57,4 +57,15 @@ $(document).ready(function(){
     });
 
 })(jQuery);
+$(".scrollto a").on("click", function () {
+    let href = $(this).attr("href");
 
+    $("html, body").animate({
+        scrollTop: $(href).offset().top
+    }, {
+        duration: 700,
+        easing: "linear"
+    });
+
+    return false;
+});
