@@ -32,7 +32,7 @@
         margin-left: 30px;
     }
     .left_logo{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .right_sub-menu{
         margin-right: 30px;
@@ -118,12 +118,6 @@
     }
     .guides_unique h3{
         font-size: 25px;
-    }
-    .guides_unique .container .circles p{
-        font-size: 20px;
-        max-width: 150px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .voices_img{
         max-width: 270px;
@@ -352,6 +346,16 @@
         font-size: 25px;
     }
 }
+@media only screen and (max-width: 620px) {
+    .guides_unique .circles .circles_container{
+        width: 50%;
+    }
+    .guides_unique .circles .circles_container p{
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 180px;
+    }
+}
 @media only screen and (max-width: 600px) {
     .voices_guides .voices_people h3{
         font-size: 13px;
@@ -424,11 +428,6 @@
     .people_society article a{
         font-size: 13px;
         margin-left: 30px;
-    }
-    .guides_unique .container .circles p{
-        font-size: 15px;
-        line-height: 20px;
-        max-width: 120px;
     }
 }
 @media only screen and (max-width: 567px) {
@@ -544,11 +543,6 @@
     .people_container article a{
         margin-right: 250px;
     }
-    .guides_unique .container .circles p{
-        font-size: 12px;
-        line-height: 15px;
-        max-width: 100px;
-    }
     .guides_unique .container h2{
         font-size: 20px;
         line-height: 30px;
@@ -627,14 +621,14 @@
     }
 }
 @media only screen and (max-width: 370px) {
-    .guides_unique .container .circles p{
-        font-size: 10px;
-        line-height: 10px;
-        max-width: 70px;
-    }
     .guides_unique .container h3{
         font-size: 16px;
         line-height: 20px;
+    }
+    .guides_unique .circles .circles_container p{
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 140px;
     }
 }
 @media only screen and (max-width: 352px) {
@@ -665,5 +659,24 @@
     }
     .voices_guides .voices_people a{
         font-size: 8px;
+    }
+    footer .right_sub-menu{
+        font-size: 11px;
+    }
+    footer .right_sub-menu ul li a{
+        font-size: 10px;
+    }
+    footer p{
+        font-size: 11px;
+    }
+    .left_logo{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .guides_unique .circles .circles_container p{
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 110px;
     }
 }

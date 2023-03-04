@@ -41,10 +41,17 @@ header{
       display: inline-flex;
       padding-top: 12px;
       li{
+        transition: all 0.5s;
         &:last-of-type{
           margin-right: 0;
         }
+        &:hover{
+          transform: scale(1.3);
+        }
         a{
+          &:hover {
+            color: #8167a9;
+          }
           text-decoration: none;
           font-family: $main_font;
           font-style: normal;
@@ -101,6 +108,9 @@ header{
       margin-bottom: 26px;
     }
     a{
+      &:hover {
+        color: #8167a9;
+      }
       font-family: $main_font;
       font-style: normal;
       font-weight: $font_400;
@@ -309,15 +319,53 @@ header{
   }
   .circles{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    .circles_container{
+      width: 33%;
+      text-align: center;
+      &:nth-child(2){
+        .circle_p{
+          background: #33D3BC;
+        }
+      }
+      &:nth-child(3) {
+        .circle_p {
+          background: #18A5C6;
+        }
+      }
+      &:nth-child(4) {
+        .circle_p {
+          background: #D38F62;
+        }
+      }
+      &:nth-child(5) {
+        .circle_p {
+          background: #F94C43;
+        }
+      }
+      &:nth-child(6) {
+        .circle_p {
+          background: #D399FF;
+        }
+      }
+    }
+    .circle_p{
+      background: #21F7EC;
+      border: none;
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
+      margin: auto;
+      margin-bottom: 26px;
+    }
     p{
-      max-width: 211px;
+      margin: auto;
       font-family: $main_font;
       font-style: normal;
       font-weight: $font_700;
       font-size: 30px;
       line-height: 35px;
-      text-align: center;
       color: $black_color;
       margin-bottom: 130px;
     }
@@ -416,6 +464,9 @@ header{
     border-radius: 100px;
     margin-top: 16px;
     padding: 8px 23px;
+    &:hover {
+      color: #8167a9;
+    }
   }
   input {
     padding-left: 8px;

@@ -17,19 +17,25 @@ header {
     list-style: none;
     display: inline-flex;
     padding-top: 12px; }
-    header .nav ul li:last-of-type {
-      margin-right: 0; }
-    header .nav ul li a {
-      text-decoration: none;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-size: 16px;
-      line-height: 26px;
-      color: #1C1B1B;
-      margin-right: 28px;
-      font-weight: 700; }
-      header .nav ul li a img {
-        display: inline-flex; }
+    header .nav ul li {
+      transition: all 0.5s; }
+      header .nav ul li:last-of-type {
+        margin-right: 0; }
+      header .nav ul li:hover {
+        transform: scale(1.3); }
+      header .nav ul li a {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #1C1B1B;
+        margin-right: 28px;
+        font-weight: 700; }
+        header .nav ul li a:hover {
+          color: #8167a9; }
+        header .nav ul li a img {
+          display: inline-flex; }
   header .logo_1 {
     margin-bottom: 9px; }
   header .logo_2 {
@@ -77,6 +83,8 @@ header {
       border: 1px solid #000000;
       border-radius: 100px;
       padding: 8px 23px; }
+      .main_banner .container a:hover {
+        color: #8167a9; }
     .main_banner .container article {
       max-width: 534px;
       margin-right: 53px; }
@@ -246,15 +254,36 @@ header {
   padding-bottom: 290px; }
 .guides_unique .circles {
   display: flex;
-  justify-content: space-between; }
+  justify-content: center;
+  flex-wrap: wrap; }
+  .guides_unique .circles .circles_container {
+    width: 33%;
+    text-align: center; }
+    .guides_unique .circles .circles_container:nth-child(2) .circle_p {
+      background: #33D3BC; }
+    .guides_unique .circles .circles_container:nth-child(3) .circle_p {
+      background: #18A5C6; }
+    .guides_unique .circles .circles_container:nth-child(4) .circle_p {
+      background: #D38F62; }
+    .guides_unique .circles .circles_container:nth-child(5) .circle_p {
+      background: #F94C43; }
+    .guides_unique .circles .circles_container:nth-child(6) .circle_p {
+      background: #D399FF; }
+  .guides_unique .circles .circle_p {
+    background: #21F7EC;
+    border: none;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 26px; }
   .guides_unique .circles p {
-    max-width: 211px;
+    margin: auto;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    text-align: center;
     color: #000000;
     margin-bottom: 130px; }
 .guides_unique h2 {
@@ -370,6 +399,8 @@ header {
   border-radius: 100px;
   margin-top: 16px;
   padding: 8px 23px; }
+  .keep_touch input[id="submit"]:hover, .keep_touch select:hover {
+    color: #8167a9; }
 .keep_touch input {
   padding-left: 8px; }
 .keep_touch h2 {
