@@ -63,7 +63,7 @@ $(".scrollto a").on("click", function () {
     $("html, body").animate({
         scrollTop: $(href).offset().top
     }, {
-        duration: 700,
+        duration: 350,
         easing: "linear"
     });
 
