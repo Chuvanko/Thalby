@@ -182,6 +182,7 @@
     .nav-but-wrap{
         display: inline-block;
         margin-left: 10px;
+        position: fixed;
     }
     .nav {
         position: fixed;
@@ -295,6 +296,10 @@
     header .nav ul li a{
         margin: 15px 0;
     }
+    body.nav-active{
+        overflow: hidden;
+    }
+
 }
 @media only screen and (max-width: 720px) {
     .best_sellers .container h2{
@@ -476,6 +481,12 @@
     }
     .logo_3{
         display: none;
+    }
+    header{
+        padding: 35px 0;
+    }
+    .nav-but-wrap{
+        margin-top: 10px;
     }
 }
 @media only screen and (max-width: 500px) {
