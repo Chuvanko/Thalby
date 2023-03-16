@@ -445,18 +445,15 @@ header{
     padding-bottom: 88px;
     padding-top: 79px;
   }
-  .input_1{
-    margin-bottom: 18px;
-    input[id="fname"], select {
-      margin-right: 60px;
-      @include theme;
-    }
-    input[id="lname"], select {
-      @include theme;
-    }
+  input[id="fname"], select {
+    margin-right: 60px;
+    @include theme;
+  }
+  input[id="lname"], select {
+    @include theme;
   }
   input[id="email"], select{
-    width: 390px;
+    width: 200px;
     @include theme;
   }
   input[id="submit"], select{

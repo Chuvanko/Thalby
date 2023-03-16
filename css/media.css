@@ -119,23 +119,27 @@
     .guides_unique h3{
         font-size: 25px;
     }
-    .voices_img{
-        max-width: 270px;
+    .voices_guides .voices_people {
+        position: relative;
+        transform: none;
     }
-    .people_img{
-        width: 90%;
+    .voices_guides .container {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
-    .voices_guides .voices_people h3{
-        font-size: 16px;
-        line-height: 20px;
-        max-width: 260px;
+    .voices_guides {
+        max-height: none;
     }
-    .voices_guides .voices_people p{
-        font-size: 13px;
-        line-height: 20px;
+    .voices_guides .voices_people h3 {
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
     }
-    .voices_guides .voices_people a{
-        font-size: 15px;
+    .voices_people .people_img{
+        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 785px){
@@ -361,20 +365,6 @@
         max-width: 180px;
     }
 }
-@media only screen and (max-width: 600px) {
-    .voices_guides .voices_people h3{
-        font-size: 13px;
-        line-height: 15px;
-        max-width: 170px;
-    }
-    .voices_guides .voices_people p{
-        font-size: 12px;
-        line-height: 18px;
-    }
-    .voices_guides .voices_people a{
-        font-size: 13px;
-    }
-}
 @media only screen and (max-width: 580px) {
     .container_img{
         margin-left: 0;
@@ -535,19 +525,8 @@
     .people_container article a{
         margin-right: 270px;
     }
-}
-@media only screen and (max-width: 455px) {
-    .voices_guides .voices_people h3{
-        font-size: 11px;
-        line-height: 13px;
-        max-width: 150px;
-    }
-    .voices_guides .voices_people p{
-        font-size: 10px;
-        line-height: 15px;
-    }
-    .voices_guides .voices_people a{
-        font-size: 11px;
+    input[id="fname"], select {
+        margin: auto;
     }
 }
 @media only screen and (max-width: 436px) {
@@ -566,6 +545,16 @@
 @media only screen and (max-width: 414px) {
     .people_container article a{
         margin-right: 230px;
+    }
+}
+@media only screen and (max-width: 403px) {
+    input[id="fname"], select {
+        margin: auto;
+        margin-bottom: 18px;
+        margin-left: 0;
+    }
+    input[id="email"], select{
+        width: 200px;
     }
 }
 @media only screen and (max-width: 401px) {
@@ -613,18 +602,6 @@
     .people_container article a{
         margin-right: 210px;
     }
-    .voices_guides .voices_people h3{
-        font-size: 9px;
-        line-height: 10px;
-        max-width: 130px;
-    }
-    .voices_guides .voices_people p{
-        font-size: 8px;
-        line-height: 10px;
-    }
-    .voices_guides .voices_people a{
-        font-size: 9px;
-    }
 }
 @media only screen and (max-width: 380px) {
     .people_container article a{
@@ -658,18 +635,6 @@
 @media only screen and (max-width: 334px) {
     .people_container article a{
         margin-right: 150px;
-    }
-    .voices_guides .voices_people h3{
-        font-size: 8px;
-        line-height: 10px;
-        max-width: 120px;
-    }
-    .voices_guides .voices_people p{
-        font-size: 6px;
-        line-height: 10px;
-    }
-    .voices_guides .voices_people a{
-        font-size: 8px;
     }
     footer .right_sub-menu{
         font-size: 11px;
